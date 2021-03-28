@@ -1,0 +1,39 @@
+.SingleCommentHead {
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 150px;
+    max-height: 40px;
+    margin: 0;
+    padding: 0 0;
+}
+
+span {
+    justify-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.header-fname h4{
+    font-size: 1.5rem;
+}
+.header-lname h4 {
+    padding-left: 0.6rem;
+    font-size: 1.5rem;
+}
+
+.header-time p {
+    padding: 0.3rem 2rem;
+}
+
+.commentText {
+    width: 110%;
+    text-align: left;
+}

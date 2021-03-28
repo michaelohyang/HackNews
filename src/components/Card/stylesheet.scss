@@ -1,0 +1,121 @@
+.Card {
+  width: 100%;
+  /* float: left; */
+  padding: 70px;
+  /* background: lightgray; */
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  margin-bottom: 3rem;
+  // min-height: 469px;
+  height: 45rem;
+  transition: 1.5s;
+  overflow-y: hidden;
+  //cursor: pointer;
+  .title {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #6f7287;
+    padding-bottom: 0;
+    margin-top: -5rem;
+    margin-right: 2rem;
+  }
+
+  .title:hover {
+    color: black;
+  }
+
+  .credibility {
+    font-family: Georgia;
+    margin-top: -2rem;
+    font-size: 2rem;
+    color: green;
+    font-weight: bold;
+  }
+
+  .text {
+    font-size: 1.6rem;
+    color: black;
+    padding-bottom: 0;
+    padding: 2rem;
+    font-family: sans-serif;
+    color: #6f7287;
+    margin: auto;
+    width: 90%;
+  }
+
+  .text:hover {
+    color: black;
+  }
+
+  .hover-area {
+    color: black;
+    height: 100%;
+  }
+
+  .text-date {
+    font-size: 1.3rem;
+    color: black;
+    padding-bottom: 0;
+    padding: 2rem;
+    font-family: sans-serif;
+    color: gray;
+    font-style: italic;
+  }
+
+  .img {
+    width: 150px;
+    height: 163px !important;
+    height: auto;
+    float: left;
+    margin: 1rem;
+    border-radius: 100%;
+  }
+
+  .up-icon {
+    width: 50px;
+    //background: lightgray;
+    padding: 10px;
+    height: 38px;
+    color: black;
+    cursor: pointer;
+    float: right;
+    font-size: 23px !important;
+    margin-bottom: 5rem;
+  }
+
+  .down-icon {
+    width: 50px;
+    //background: lightgray;
+    padding: 10px;
+    height: 38px;
+    color: black;
+    cursor: pointer;
+    float: right;
+    font-size: 23px !important;
+  }
+
+  .down-icon:hover {
+    background-color: palevioletred;
+    font-size: 30px !important;
+  }
+
+  .up-icon:hover {
+    background-color: palevioletred;
+    font-size: 30px !important;
+  }
+}
+
+.WholeNews {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Card:hover {
+  background: lightgray;
+}
+
+.frame {
+  width: 50vw;
+  height: 100vh;
+}

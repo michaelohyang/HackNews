@@ -1,0 +1,47 @@
+.HomePage {
+  //box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  //background-color: white;
+  width: 95%;
+  margin: auto;
+  height: auto;
+  margin-top: 2rem;
+
+  .image-header {
+    width: 250px;
+    height: auto;
+    margin: auto;
+    margin-top: -3rem;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #6f7287;
+    padding: 3rem;
+    padding-bottom: 0;
+    font-size: 40px;
+    font-family: sans-serif;
+  }
+
+  .search {
+    margin: auto;
+    text-align: center;
+  }
+
+  .button-og {
+    margin-top: 1rem;
+    float: left;
+    margin-left: 9%;
+  }
+
+  .home-quote {
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+  }
+}
+
+.ui.search>.results {
+  margin-left: 43% !important;
+}

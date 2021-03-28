@@ -1,0 +1,31 @@
+.image-cropper {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+img {
+    width: 80px;
+    height: 80px; 
+}
+
+.picture {
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.userName-text {
+    text-align: center;
+    padding-left: 1.1em;
+    margin-top: 10em;
+    font-size: 1.3em;
+}
+
+.userName {
+    margin-top: 1em;
+}
